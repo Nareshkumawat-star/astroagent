@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Cinzel:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", "Inter", sans-serif;
+  --font-serif: "Cinzel", "Playfair Display", serif;
+  
+  --color-saffron-50: #fff9f5;
+  --color-saffron-100: #fff0e6;
+  --color-saffron-200: #ffcb9a;
+  --color-saffron-500: #ff4b26;
+  --color-saffron-600: #f23602;
+  --color-saffron-700: #d92d02;
+  
+  --color-maroon-50: #faf1f0;
+  --color-maroon-500: #6d1a08;
+  --color-maroon-600: #5c1900;
+  --color-maroon-700: #4a2828;
+  --color-maroon-950: #1a0805;
+  
+  --color-sand-50: #fffaf5;
+  --color-sand-100: #f6e7d3;
+  --color-sand-200: #f6e1c4;
+  --color-sand-300: #ecbf7f;
+  --color-sand-400: #dca355;
+  
+  --animate-spin-slow: spin 20s linear infinite;
+  --animate-fade-in: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}

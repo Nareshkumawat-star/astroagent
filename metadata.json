@@ -1,0 +1,6 @@
+{
+  "name": "AstroAgent",
+  "description": "Your full-stack, AI-powered Astrology Companion and Birth Chart Calculator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
